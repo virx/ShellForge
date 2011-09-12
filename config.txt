@@ -1,0 +1,40 @@
+# Here are defined all the tabs and commands.
+# Lines starting with # are ignored.
+# Lines starting with "|" define tab or command button.
+# Lines below defined tab line are button names that appear in this tab.
+# Lines below defined command define the shell commandd to run.
+
+|tab|Ember|
+StartEmber
+
+|tab|Cyphesis|
+StartCyphesis
+
+|tab|Kill|
+KillEmber
+KillCyphesis
+
+|tab|OtherThings|
+GoHomeDir
+FirefoxStart
+
+|command|StartEmber|
+~/wf/local/bin/ember
+
+|command|StartCyphesis|
+~/wf/local/bin/cyphesis
+
+|command|KillEmber|
+killall ember
+killall ember.bin
+
+|command|KillCyphesis|
+killall cyphesis
+killall cyphesis.bin
+
+|command|FirefoxStart|
+firefox
+echo 'firefox'
+
+|command|GoHomeDir|
+cd ~
